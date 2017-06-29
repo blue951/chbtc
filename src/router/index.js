@@ -23,6 +23,7 @@ import demo from '../page/user/demo.vue'
 //图标的组件
 import pie from '../page/echarts/pie.vue'
 import zhexian from '../page/echarts/zhexian.vue'
+import kline from '../page/echarts/kline.vue'
 
 Vue.use(Router)
 
@@ -38,6 +39,10 @@ export default new Router({
     {
         path: '/zhexian',
         component: zhexian
+    }, 
+    {
+        path: '/kline',
+        component: kline
     }, {
         path: '/login',
         component: Frame,
